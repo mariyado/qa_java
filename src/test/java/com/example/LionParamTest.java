@@ -10,7 +10,6 @@ public class LionParamTest {
     private final String sex;
     private final boolean doesHaveMane;
 
-
     public LionParamTest(String sex, boolean doesHaveMane) {
         this.sex = sex;
         this.doesHaveMane = doesHaveMane;
@@ -25,7 +24,6 @@ public class LionParamTest {
     }
 
     @Test
-
     public void testDoesHaveMane() throws Exception {
         Lion testAnimal = new Lion(sex,new Feline());
         boolean actualMane = testAnimal.doesHaveMane();
