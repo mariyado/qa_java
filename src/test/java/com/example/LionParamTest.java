@@ -16,7 +16,7 @@ public class LionParamTest {
     }
 
     @Parameterized.Parameters
-    public static Object[][] LionTestParam() {
+    public static Object[][] lionTestParam() {
         return new Object[][]{
                 {"Самка", false},
                 {"Самец", true},

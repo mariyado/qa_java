@@ -1,7 +1,6 @@
 package com.example;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
@@ -19,7 +18,7 @@ public class CatTest {
     @Test
     public void testGetSound(){
         String expectedSound = "Мяу";
-        Assertions.assertEquals(expectedSound, testCat.getSound());
+        Assert.assertEquals(expectedSound, testCat.getSound());
     }
     @Test
     public void testCatFood() throws Exception {
